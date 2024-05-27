@@ -1,3 +1,3 @@
-import './Collapse';
-import './widget';
-import './Like';
+import "./Collapse";
+import "./widget";
+import "./Like";
