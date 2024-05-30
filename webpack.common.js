@@ -18,7 +18,7 @@ module.exports = {
         },
       },
       {
-        test: /\.html$/,
+        test: /\.html$/i,
         use: [
           {
             loader: 'html-loader',
@@ -26,7 +26,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader, 'css-loader',
         ],
